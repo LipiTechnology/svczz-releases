@@ -1,0 +1,25 @@
+# SVCZZ downloads
+
+Install files for the SVCZZ apps. This repository holds release files only, no source code.
+
+## Android (phones and tablets)
+
+1. Open the [latest release](https://github.com/LipiTechnology/svczz-releases/releases/latest) on your phone.
+2. Download `svczz-<version>.apk`.
+3. Open it. Android asks once to allow installs from your browser or file manager; allow it.
+4. Updates: install the newer APK over the old one. Your sign-in and settings stay.
+
+Package `com.svczz.app`. Every APK is signed with the same key; Android refuses an update signed
+by anyone else. SHA-256 of the signing certificate:
+
+```
+B2:B8:62:02:F0:1E:FF:09:86:5F:C0:8E:01:66:63:EB:C6:57:0A:E9:AC:1D:6C:BC:81:A1:14:E0:A3:DF:61:16
+```
+
+Each release also lists the SHA-256 of the APK file (`.sha256`).
+
+Needs Android 8.0 or newer on a 64-bit (arm64) device. Ads and popups are blocked inside the app.
+
+## TV
+
+Open https://svczz.com/tv in your TV's browser. Android TV and Samsung (Tizen) apps are coming.
