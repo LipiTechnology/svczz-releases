@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="description"
+      content="Download SVCZZ for Android phones and find SVCZZ on your TV or in a browser."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Download SVCZZ | Watch anywhere</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="https://svczz.com/" aria-label="svczz home">
+          <img class="brand-mark" src="svczz-full.svg" alt="svczz" />
+        </a>
+        <span class="header-label">Official downloads</span>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <p class="eyebrow">Watch without the noise</p>
+          <h1 id="page-title">SVCZZ for your screens.</h1>
+          <p class="hero-message">
+            Get the app for your Android phone, or open SVCZZ on the screen you already use.
+          </p>
+        </section>
+
+        <section class="platforms" aria-labelledby="platforms-title">
+          <div class="section-intro">
+            <p class="eyebrow">Choose your screen</p>
+            <h2 id="platforms-title">Start watching.</h2>
+          </div>
+
+          <div class="platform-grid">
+            <article class="platform-card platform-card-featured" id="android-phone">
+              <div class="card-heading">
+                <div>
+                  <p class="card-kicker">Best for phones and tablets</p>
+                  <h2>Android phone</h2>
+                </div>
+                <span class="card-icon" aria-hidden="true">↓</span>
+              </div>
+              <p>
+                Download the latest SVCZZ APK for Android 8.0 and newer on 64-bit arm64 devices.
+              </p>
+              <a
+                class="download-button"
+                id="download-button"
+                href="https://github.com/LipiTechnology/svczz-releases/releases/latest"
+              >
+                <span>Download latest APK</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <p class="download-status" id="download-status" role="status">
+                The button opens the latest GitHub release. Release details load here when available.
+              </p>
+
+              <div class="release-details" id="release-details" hidden>
+                <dl class="release-facts">
+                  <div>
+                    <dt>Version</dt>
+                    <dd id="release-version">—</dd>
+                  </div>
+                  <div>
+                    <dt>Published</dt>
+                    <dd id="release-date">—</dd>
+                  </div>
+                  <div>
+                    <dt>APK size</dt>
+                    <dd id="apk-size">—</dd>
+                  </div>
+                </dl>
+                <div class="notes-block">
+                  <h3>Release notes</h3>
+                  <pre id="release-notes">No release notes for this version.</pre>
+                </div>
+                <p class="checksum" id="apk-sha-row" hidden>
+                  APK SHA-256: <code id="apk-sha"></code>
+                </p>
+              </div>
+
+              <div class="install-guide">
+                <h3>Install on Android</h3>
+                <ol>
+                  <li>Download the APK, then open it.</li>
+                  <li>Allow installs from your browser when Android asks. You only need to do this once.</li>
+                  <li>For updates, install the newer APK over the old one.</li>
+                </ol>
+              </div>
+
+              <details class="certificate">
+                <summary>Signing certificate SHA-256</summary>
+                <code>
+                  B2:B8:62:02:F0:1E:FF:09:86:5F:C0:8E:01:66:63:EB:C6:57:0A:E9:AC:1D:6C:BC:81:A1:14:E0:A3:DF:61:16
+                </code>
+              </details>
+            </article>
+
+            <article class="platform-card">
+              <div class="card-heading">
+                <div>
+                  <p class="card-kicker">Coming soon</p>
+                  <h2>Android / Google TV</h2>
+                </div>
+                <span class="badge">Coming soon</span>
+              </div>
+              <p>
+                TV support is on the way. The same APK will work on Android and Google TV once TV
+                support ships.
+              </p>
+            </article>
+
+            <article class="platform-card">
+              <div class="card-heading">
+                <div>
+                  <p class="card-kicker">Developer installs</p>
+                  <h2>Samsung TV (Tizen)</h2>
+                </div>
+                <span class="card-icon" aria-hidden="true">TV</span>
+              </div>
+              <p>
+                This is not a public download. The app only installs on Samsung TVs registered with
+                the developer.
+              </p>
+              <p>
+                Everyone else can open
+                <a class="text-link" href="https://svczz.com/tv">svczz.com/tv</a>
+                in the TV browser.
+              </p>
+            </article>
+
+            <article class="platform-card">
+              <div class="card-heading">
+                <div>
+                  <p class="card-kicker">No install required</p>
+                  <h2>In a browser</h2>
+                </div>
+                <span class="card-icon" aria-hidden="true">↗</span>
+              </div>
+              <p>Use SVCZZ anywhere a modern browser is available.</p>
+              <a class="text-link text-link-large" href="https://svczz.com/">Open svczz.com <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </section>
+
+        <noscript>
+          <p class="noscript-note">
+            JavaScript is off. Use the Android button above to open the latest release on GitHub.
+          </p>
+        </noscript>
+      </main>
+
+      <footer>
+        <span>© SVCZZ</span>
+        <a href="https://github.com/LipiTechnology/svczz-releases/releases">All releases</a>
+      </footer>
+    </div>
+  </body>
+</html>

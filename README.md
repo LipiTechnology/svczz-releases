@@ -1,5 +1,7 @@
 # SVCZZ downloads
 
+[Download SVCZZ](https://lipitechnology.github.io/svczz-releases/)
+
 Install files for the SVCZZ apps. This repository holds release files only, no source code.
 
 ## Android (phones and tablets)
