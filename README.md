@@ -20,8 +20,10 @@ B2:B8:62:02:F0:1E:FF:09:86:5F:C0:8E:01:66:63:EB:C6:57:0A:E9:AC:1D:6C:BC:81:A1:14
 
 Each release also lists the SHA-256 of the APK file (`.sha256`).
 
-Needs Android 8.0 or newer on a 64-bit (arm64) device. Ads and popups are blocked inside the app.
+Needs Android 8.0 or newer on an arm64 or 32-bit ARM device. Ads and popups are blocked inside the app.
 
 ## TV
 
-Open https://svczz.com/tv in your TV's browser. Android TV and Samsung (Tizen) apps are coming.
+Android TV / Google TV: install the same APK (0.1.12 or newer), e.g. with the Downloader app. It opens TV mode; sign in with your phone (QR).
+
+Other TVs: open https://svczz.com/tv in the TV's browser. The Samsung (Tizen) app is not a public download.
